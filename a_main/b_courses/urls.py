@@ -3,5 +3,6 @@ from b_courses import views
 
 
 urlpatterns = [
-    path('',views.home,name='home_page'),
+    path('',views.css,name='css_page'),
+    path('home',views.home,name='home_page')
 ]

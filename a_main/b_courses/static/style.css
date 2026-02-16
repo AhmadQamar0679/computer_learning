@@ -1,0 +1,96 @@
+/* body{
+    background-color: gray;
+} */
+
+.main-hading{
+    background-color: wheat;
+    padding: 2px;
+    margin: 45px;
+
+}
+.border{
+    border-width: 10px;
+    /* border-style: solid; */
+    /* border-style: dotted; */
+    /* border-style: double; */
+    /* border-style: groove; */
+    /* border-style: ridge; */
+    /* border-style: inset; */
+    border-bottom: 2px solid pink;
+    
+    /* border-color: blue; */
+    padding: 50px;
+
+}
+.outline{
+    outline-width: 3px;
+    outline-style: dashed;
+    outline-color:orangered;
+}
+.padding{
+    border-width: 2px;
+    border-style: dashed;
+    border-color: rebeccapurple;
+    padding: 20px;
+
+}
+
+.margin{
+     border-width: 3px; 
+    border-style: solid;
+    
+    /* margin: 30px;
+    margin-top: 50px; */ 
+    width: 200px;
+    margin: auto;
+    
+    
+}
+#width{
+    border: 1px;
+    border-style: solid;
+    border-color: red;
+    width: 100%;
+    padding-top: 20px;
+    height: 100px;
+    text-align: center;
+   
+}
+#min_max_hight{
+    border: 2px;
+    border-style: dotted;
+    border-color: blue;
+    min-height: 200px;
+    margin-top: 30px;
+    width: 50%;
+    text-align: center;
+
+
+}
+
+/*              Home Page Css */
+#sidebar{
+    margin-top: 0px;
+    border: 2px;
+    border-style: solid ;
+    border-color: whitesmoke;
+    width: 200px;
+    max-height: 700px;
+    background-color: aliceblue;
+ 
+    
+}
+
+.main_page{
+    margin-left: 250px;
+    margin-top: 0;
+    
+    
+    background-color: rgb(242, 242, 242);
+    
+}
+
+
+
+    
+
