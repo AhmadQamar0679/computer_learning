@@ -1,96 +1,83 @@
-/* body{
-    background-color: gray;
-} */
-
-.main-hading{
-    background-color: wheat;
-    padding: 2px;
-    margin: 45px;
-
-}
-.border{
-    border-width: 10px;
-    /* border-style: solid; */
-    /* border-style: dotted; */
-    /* border-style: double; */
-    /* border-style: groove; */
-    /* border-style: ridge; */
-    /* border-style: inset; */
-    border-bottom: 2px solid pink;
-    
-    /* border-color: blue; */
-    padding: 50px;
-
-}
-.outline{
-    outline-width: 3px;
-    outline-style: dashed;
-    outline-color:orangered;
-}
-.padding{
-    border-width: 2px;
-    border-style: dashed;
-    border-color: rebeccapurple;
-    padding: 20px;
-
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
 }
 
-.margin{
-     border-width: 3px; 
-    border-style: solid;
-    
-    /* margin: 30px;
-    margin-top: 50px; */ 
-    width: 200px;
-    margin: auto;
-    
-    
+.container {
+    display: flex;
 }
-#width{
-    border: 1px;
-    border-style: solid;
-    border-color: red;
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #e8e6e1;
+    padding: 30px 20px;
+    height: 100vh;
+}
+
+.sidebar h2 {
+    color: #8b6f47;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Main Content */
+.main {
+    flex: 1;
+}
+
+/* Banner */
+.banner {
+    background-image: url("https://images.unsplash.com/photo-1517336714731-489689fd1ca8");
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+/* Video Grid */
+.videos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    background: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+}
+
+.card img {
     width: 100%;
-    padding-top: 20px;
-    height: 100px;
-    text-align: center;
-   
-}
-#min_max_hight{
-    border: 2px;
-    border-style: dotted;
-    border-color: blue;
-    min-height: 200px;
-    margin-top: 30px;
-    width: 50%;
-    text-align: center;
-
-
+    border-radius: 5px;
 }
 
-/*              Home Page Css */
-#sidebar{
-    margin-top: 0px;
-    border: 2px;
-    border-style: solid ;
-    border-color: whitesmoke;
-    width: 200px;
-    max-height: 700px;
-    background-color: aliceblue;
- 
-    
+.card p {
+    margin-top: 10px;
+    font-weight: bold;
 }
-
-.main_page{
-    margin-left: 250px;
-    margin-top: 0;
-    
-    
-    background-color: rgb(242, 242, 242);
-    
-}
-
-
-
-    
-
